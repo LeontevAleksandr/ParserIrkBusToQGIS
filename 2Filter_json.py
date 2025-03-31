@@ -20,8 +20,8 @@ def filter_bus_data(input_file, output_file, gos_num):
         json.dump(filtered_data, f, ensure_ascii=False, indent=4)
 
 # Использование
-input_file = "delete_duplicate.json"
-output_file = "filtered_data.json"
+input_file = "delete_duplicate(test).json"
+output_file = "filtered_data(test).json"
 bus_gos_num = "У114ЕО"
 
 filter_bus_data(input_file, output_file, bus_gos_num)

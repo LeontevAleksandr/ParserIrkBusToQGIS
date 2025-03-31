@@ -29,6 +29,6 @@ def remove_duplicates_and_sort(input_file, output_file):
 
 
 # Использование:
-input_filename = "full_data(1).json"
-output_filename = "delete_duplicate.json"
+input_filename = "full_data.json"
+output_filename = "delete_duplicate(test).json"
 remove_duplicates_and_sort(input_filename, output_filename)
